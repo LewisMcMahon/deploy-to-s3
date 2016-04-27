@@ -1,0 +1,13 @@
+{
+  "deployments" :[
+    { "name" : "live",
+      "git" : true,
+      "gitRepo" : "https://github.com/LewisMcMahon/lewismcmahon.co.uk.git",
+      "gitBranch" : "master",
+      "bucketName" : "lewismcmahon.co.uk",
+      "bucketRegion" : "us-east-1",
+      "minifyCSS" : false,
+      "minifyJS" : false}
+  ],
+  "filePathFilters" : ["*git*","deploy-to-s3.json"]
+}

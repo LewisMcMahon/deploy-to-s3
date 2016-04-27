@@ -19,6 +19,11 @@ module.exports = {
         "semi": [
             "error",
         ],
-        "no-console":0
+        "no-console":0,
+	    "no-unused-vars": [
+		    "error",
+		    { "varsIgnorePattern": "colors" }
+	    ]
+
     }
 };
