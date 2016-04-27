@@ -1,6 +1,4 @@
 var expect = require("chai").expect;
-var fs = require("fs");
-
 var FileHelper = require("../src/FileHelper.js");
 
 describe("FileHelper", function(){

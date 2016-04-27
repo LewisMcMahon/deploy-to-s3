@@ -25,14 +25,20 @@
   "homepage": "https://github.com/LewisMcMahon/deploy-to-s3#readme",
   "dependencies": {
     "aws": "0.0.3-2",
+    "colors": "^1.1.2",
+    "commander": "^2.9.0",
     "del": "^2.2.0",
     "glob-to-regexp": "^0.1.0",
     "nodegit": "^0.12.2",
+    "questions": "0.0.6",
     "recursive-readdir": "^2.0.0",
     "temp": "^0.8.3"
   },
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^2.4.5"
+  },
+  "bin": {
+    "deploy-to-s3": "index.js"
   }
 }
