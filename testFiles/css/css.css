@@ -1,0 +1,41 @@
+body{
+    color:whitesmoke;
+    background-color:#303030;
+}
+.work-header{
+    background-size:100%;
+}
+.work-header.development{
+    background-image:url("../images/code.jpg");
+}
+.work-header.aws{
+    background-image:url("../images/servers.jpg");
+}
+.work-header.design{
+    background-image:url("../images/data-quarry.jpg");
+}
+.work-header.climbing{
+    background-image:url("../images/climbing.jpg");
+}
+.work-header-overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(60, 60, 60,0.7);
+}
+.work-header-overlay h3{
+    color: whitesmoke;
+    margin: 0;
+    text-align: center;
+}
+
+.work-content{
+    background-color: rgb(60, 60, 60);
+    width:auto;
+    height:auto;
+    padding:0px 10px 10px;
+    display: none;
+}
+
+.work-container{
+    margin:15px 0;
+}

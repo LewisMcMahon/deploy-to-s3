@@ -1,6 +1,5 @@
 var expect = require("chai").expect;
 var fs = require("fs");
-var async = require("async");
 var del = require("del");
 
 var GitHelper = require("../src/GitHelper.js");
