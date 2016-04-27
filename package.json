@@ -1,0 +1,31 @@
+{
+  "name": "deploy-to-s3",
+  "version": "0.0.1",
+  "description": "An npm package for deploying files and git repos to s3",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LewisMcMahon/deploy-to-s3.git"
+  },
+  "keywords": [
+    "git",
+    "s3",
+    "deploy",
+    "files",
+    "aws"
+  ],
+  "author": "Lewis McMahon <lewis@lewismcmahon.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LewisMcMahon/deploy-to-s3/issues"
+  },
+  "homepage": "https://github.com/LewisMcMahon/deploy-to-s3#readme",
+  "dependencies": {
+    "aws": "0.0.3-2",
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
