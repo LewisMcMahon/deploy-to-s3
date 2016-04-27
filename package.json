@@ -24,10 +24,14 @@
   },
   "homepage": "https://github.com/LewisMcMahon/deploy-to-s3#readme",
   "dependencies": {
+    "async": "^2.0.0-rc.3",
     "aws": "0.0.3-2",
-    "chai": "^3.5.0",
-    "mocha": "^2.4.5",
+    "del": "^2.2.0",
     "nodegit": "^0.12.2",
     "temp": "^0.8.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
   }
 }
